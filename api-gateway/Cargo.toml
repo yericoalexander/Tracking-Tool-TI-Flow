@@ -1,0 +1,16 @@
+[package]
+name = "api-gateway"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+rdkafka = { workspace = true }
+shared = { path = "../shared" }
+axum = "0.7"
+tower = "0.4"
+sha2 = "0.10"
+dotenvy = { workspace = true }
+tokio-stream = { workspace = true }
