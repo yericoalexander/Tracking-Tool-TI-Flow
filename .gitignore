@@ -10,7 +10,6 @@ Cargo.lock
 *.swp
 *.swo
 *~
-.DS_Store
 
 # Logs
 *.log
@@ -24,6 +23,10 @@ Cargo.lock
 .DS_Store
 .AppleDouble
 .LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
 
 # Docker volumes
 .docker/
